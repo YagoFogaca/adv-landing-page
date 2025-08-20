@@ -6,12 +6,7 @@ export const HeaderComponents = () => {
   return (
     <>
       <>
-        <Navbar
-          key="md"
-          expand="md"
-          className="mb-3"
-          bg="secondary"
-          data-bs-theme="dark">
+        <Navbar key="md" expand="md" bg="secondary" data-bs-theme="dark">
           <Container fluid>
             <Navbar.Brand href="#">
               <ImageComponent
