@@ -1,7 +1,6 @@
 import { Container, Nav, Navbar, Offcanvas } from "react-bootstrap";
-
-import "./index.header.css";
 import { ImageComponent } from "../images/index.images";
+import "./index.header.css";
 
 export const HeaderComponents = () => {
   return (
