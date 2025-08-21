@@ -1,0 +1,12 @@
+section.section-card {
+  padding: 10px 15px;
+}
+
+div.icon-header {
+  display: flex;
+  justify-content: center;
+}
+
+div.card-body {
+  min-height: 115px;
+}
