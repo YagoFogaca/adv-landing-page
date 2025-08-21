@@ -6,7 +6,4 @@ div.offcanvas {
 a.nav-link {
   color: #d3aa61;
   text-transform: uppercase;
-  @media (min-width: 1028px) {
-    font-size: 19px;
-  }
 }
