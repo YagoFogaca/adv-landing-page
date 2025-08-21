@@ -24,10 +24,10 @@ export const HeaderComponents = () => {
               <Offcanvas.Header closeButton></Offcanvas.Header>
               <Offcanvas.Body>
                 <Nav className="justify-content-end flex-grow-1 pe-3">
-                  <Nav.Link href="#action1">Área de atuação</Nav.Link>
-                  <Nav.Link href="#action2">Sobre</Nav.Link>
-                  <Nav.Link href="#action2">Contato</Nav.Link>
-                  <Nav.Link href="#action2">Endereço</Nav.Link>
+                  <Nav.Link href="#section-activity">Área de atuação</Nav.Link>
+                  <Nav.Link href="#section-on">Sobre</Nav.Link>
+                  <Nav.Link href="#section-contact">Contato</Nav.Link>
+                  <Nav.Link href="#section-address">Endereço</Nav.Link>
                 </Nav>
               </Offcanvas.Body>
             </Navbar.Offcanvas>

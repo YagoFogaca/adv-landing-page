@@ -47,7 +47,7 @@ export const SectionCardComponents = () => {
   ];
   return (
     <>
-      <section className="section-card">
+      <section className="section-card" id="section-activity">
         <Row xs={1} md={2} className="g-4">
           {dates.map((date, index) => {
             return (
