@@ -1,0 +1,28 @@
+section.banner {
+  height: 65vh; /* ocupa a tela inteira */
+  background-image: url("/imgs/banner/banner-1280.webp");
+  background-size: cover; /* cobre toda a área */
+  background-position: center; /* centraliza */
+  display: flex;
+  align-items: center; /* centraliza vertical */
+  justify-content: center; /* centraliza horizontal */
+  color: white;
+  text-align: center;
+  position: relative;
+}
+
+section.banner::before {
+  content: "";
+  position: absolute;
+  inset: 0; /* cobre todo o banner */
+  background: rgba(0, 0, 0, 0.6); /* overlay escuro para destacar o texto */
+}
+
+div.banner-content {
+  position: relative; /* para ficar acima do overlay */
+  z-index: 1;
+}
+
+.banner-content .btn-warning {
+  margin-top: 20px;
+}
