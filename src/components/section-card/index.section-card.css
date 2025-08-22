@@ -5,8 +5,16 @@ section.section-card {
 div.icon-header {
   display: flex;
   justify-content: center;
+
+  background-color: #393939;
+  color: #fff;
+}
+
+div.icon-bg {
+  color: #393939;
+  background-color: #ffc107;
 }
 
 div.card-body {
-  min-height: 115px;
+  min-height: 136px;
 }

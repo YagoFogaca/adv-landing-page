@@ -35,7 +35,7 @@ export const SectionCardComponents = () => {
     {
       title: "Porte e Posse Ilegal de Armas",
       description:
-        "Erros formais, vícios no flagrante e ilegalidades na abordagem podem anular todo o processo. Uma boa análise faz toda a diferença.",
+        "Erros formais, vícios no flagrante e ilegalidades na abordagem podem anular todo o processo.",
       icon: GiPistolGun,
     },
     {
@@ -48,11 +48,11 @@ export const SectionCardComponents = () => {
   return (
     <>
       <section className="section-card" id="section-activity">
-        <Row xs={1} md={2} className="g-4">
+        <Row xs={1} md={3} className="g-4">
           {dates.map((date, index) => {
             return (
               <Col>
-                <CardComponents key={index} data={date}>
+                <CardComponents key={index} data={date} index={index}>
                   {date.icon ? <date.icon size={72} /> : null}
                 </CardComponents>
               </Col>
