@@ -6,6 +6,7 @@ import { GiPistolGun } from "react-icons/gi";
 import { MdAccountBalance } from "react-icons/md";
 import { CardComponents } from "../card/index.card";
 import "./index.section-card.css";
+import { TitleSection } from "../title-section/index.title-section";
 
 export const SectionCardComponents = () => {
   const dates = [
@@ -47,7 +48,8 @@ export const SectionCardComponents = () => {
   ];
   return (
     <>
-      <section className="section-card" id="section-activity">
+      <section className="general-session" id="section-activity">
+        <TitleSection title={"Áreas de Atuação"} />
         <Row xs={1} md={3} className="g-4">
           {dates.map((date, index) => {
             return (
