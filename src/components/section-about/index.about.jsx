@@ -6,7 +6,7 @@ import "./index.about.css";
 export const SectionAboutComponents = () => {
   return (
     <>
-      <section className="general-session">
+      <section className="general-session" id="section-about">
         <TitleSection title={"Sobre Flavio Silva"} />
 
         <article className="info-about">

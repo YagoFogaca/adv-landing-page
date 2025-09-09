@@ -25,7 +25,7 @@ export const HeaderComponents = () => {
               <Offcanvas.Body>
                 <Nav className="justify-content-end flex-grow-1 pe-3">
                   <Nav.Link href="#section-activity">Área de atuação</Nav.Link>
-                  <Nav.Link href="#section-on">Sobre</Nav.Link>
+                  <Nav.Link href="#section-about">Sobre</Nav.Link>
                   <Nav.Link href="#section-contact">Contato</Nav.Link>
                   <Nav.Link href="#section-address">Endereço</Nav.Link>
                 </Nav>
