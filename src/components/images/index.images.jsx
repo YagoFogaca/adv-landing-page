@@ -5,6 +5,7 @@ export const ImageComponent = ({
   eager = false,
   naturalWidth = 640,
   naturalHeight = 800,
+  widthParameter = "85px",
 }) => (
   <picture>
     {/* AVIF primeiro */}
@@ -44,7 +45,7 @@ export const ImageComponent = ({
       height={naturalHeight}
       loading={eager ? "eager" : "lazy"}
       decoding="async"
-      style={{ width: "85px", height: "auto" }}
+      style={{ width: widthParameter, height: "auto" }}
     />
   </picture>
 );
