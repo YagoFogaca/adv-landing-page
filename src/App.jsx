@@ -4,6 +4,7 @@ import { HeaderComponents } from "./components/header/index.header";
 import { BannerComponents } from "./components/banner/index.banner";
 import { SectionCardComponents } from "./components/section-card/index.section-card";
 import { SectionAboutComponents } from "./components/section-about/index.about";
+import { SectionContact } from "./components/section-contact/index.section-contact";
 
 export const App = () => {
   return (
@@ -13,6 +14,7 @@ export const App = () => {
       <main>
         <SectionCardComponents />
         <SectionAboutComponents />
+        <SectionContact />
       </main>
     </>
   );

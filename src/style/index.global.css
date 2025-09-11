@@ -6,5 +6,16 @@ main {
 
 section.general-session {
   max-width: 1266px;
+  width: 100%;
   padding: 10px 15px;
+}
+
+article.container-infos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+  min-width: 290px;
 }
