@@ -1,4 +1,6 @@
 import { Form, Button, Col, Row } from "react-bootstrap";
+import { FaWhatsapp } from "react-icons/fa";
+import "./index.form-contact.css";
 
 export const FormContactComponents = () => {
   return (
@@ -30,12 +32,20 @@ export const FormContactComponents = () => {
           <Form.Label>Mensagem</Form.Label>
           <Form.Control as="textarea" rows={3} />
         </Form.Group>
-        <Button
-          size="sm"
-          variant="warning"
-          href="https://wa.me/message/ZJURC2JMMG73M1">
-          Enviar mensagem
-        </Button>
+        <div className="btn-contact">
+          <Button
+            size="sm"
+            variant="warning"
+            href="https://wa.me/message/ZJURC2JMMG73M1">
+            Enviar mensagem
+          </Button>
+
+          <h6>Se preferi ligue ou fale por whatsapp</h6>
+          <a href="http://" className="btn-whatsapp">
+            <FaWhatsapp />
+            (32) 98888-8888
+          </a>
+        </div>
       </Form>
     </>
   );

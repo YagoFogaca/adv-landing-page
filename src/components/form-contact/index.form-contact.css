@@ -1,0 +1,15 @@
+div.btn-contact {
+  display: flex;
+  align-items: baseline;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.btn-whatsapp {
+  color: #075e54;
+}
+
+div.btn-contact a svg {
+  margin-right: 15px;
+}
