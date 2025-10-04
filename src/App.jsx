@@ -6,6 +6,7 @@ import { SectionCardComponents } from "./components/section-card/index.section-c
 import { SectionAboutComponents } from "./components/section-about/index.about.jsx";
 import { SectionContact } from "./components/section-contact/index.section-contact.jsx";
 import { SectionAddress } from "./components/section-address/index.address.jsx";
+import { FooterComponents } from "./components/footer/index.footer.jsx";
 
 export const App = () => {
   return (
@@ -17,6 +18,7 @@ export const App = () => {
         <SectionAboutComponents />
         <SectionContact />
         <SectionAddress />
+        <FooterComponents />
       </main>
     </>
   );
