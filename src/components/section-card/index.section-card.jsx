@@ -23,7 +23,7 @@ export const SectionCardComponents = () => {
       icon: FaCannabis,
     },
     {
-      title: "Lei maria da Penha",
+      title: "Lei Maria da Penha",
       description: "Defesa ética, humana e eficaz para processos sensíveis.",
       icon: IoIosWoman,
     },
